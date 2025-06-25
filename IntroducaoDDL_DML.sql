@@ -24,3 +24,7 @@ insert into exemplo(id, nome) values(1, 'Ana');
 
 -- Realizando uma consulta na tabela
 select * from exemplo;
+
+-- Mostrando dicionário de dados/logs
+-- Serve para mostrar o nome da coluna, o tipo de dado, a chave, entre outros.
+describe exemplo;
